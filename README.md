@@ -63,21 +63,21 @@ Accuracy is not used as the primary measure because 98.55% of the labeled exampl
 
 ## Held-out test results
 
-The validation-selected threshold was **0.06**. Applying it once to the held-out test set produced:
+The validation-selected threshold was **0.01**. Applying it once to the held-out test set produced:
 
 | Metric | Result |
 |---|---:|
-| Accuracy | 99.04% |
-| Precision | 66.67% |
+| Accuracy | 99.32% |
+| Precision | 85.71% |
 | Recall | 60.00% |
-| F1 score | 63.16% |
+| F1 score | 70.59 |
 
 The test set contained 10 positive examples. The model identified six, missed four, and generated three false-positive alerts.
 
 | Outcome | Count |
 |---|---:|
-| True negatives | 718 |
-| False positives | 3 |
+| True negatives | 720 |
+| False positives | 1 |
 | False negatives | 4 |
 | True positives | 6 |
 
