@@ -23,3 +23,52 @@ __pycache__/
 # Operating system
 .DS_Store
 Thumbs.db# Byte-compiled / optimized / DLL files
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Jupyter and Colab
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Credentials and secrets
+.env
+*.key
+secrets.json
+credentials.json
+
+# Confidential datasets
+data/private/
+data/raw/
+private_data/
+original_data/
+
+# Trained models and checkpoints
+models/
+checkpoints/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Private prediction outputs
+test_predictions*.csv
+predictions_private*.csv
+
+# Logs and temporary outputs
+*.log
+.cache/
+outputs/checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
